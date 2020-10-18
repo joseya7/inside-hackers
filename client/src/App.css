@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  background-color: #0e2439;
+  color: #9cb3c9;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}

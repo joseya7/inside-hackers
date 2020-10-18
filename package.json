@@ -1,0 +1,32 @@
+{
+  "name": "programmer-social-network-service",
+  "version": "1.0.0",
+  "description": "Full stack project with react, node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jason Park",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "react-avatar": "^3.9.7",
+    "react-moment": "^1.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

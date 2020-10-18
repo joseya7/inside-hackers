@@ -1,0 +1,128 @@
+.profile-form {
+  text-align: left;
+}
+
+.profile-form__header {
+  background-color: #1f364d;
+}
+
+.profile-form__header-inner {
+  height: 300px;
+  margin: 0 auto;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-form__header-avatar {
+  width: 164px !important;
+  height: 164px !important;
+  border-radius: 9999px;
+  margin-right: 40px;
+  cursor: pointer;
+  /* border: 6.5px dashed #4a5c6e !important; */
+  transition: border 0.42s;
+}
+
+/* .profile-form__header-avatar:hover {
+  border: 6.5px solid #fff;
+} */
+
+.profile-form__header-contents > h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.profile-form__forms {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 22.5px;
+}
+
+.profile-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile-form__forms-inner {
+}
+
+.profile-form__forms-label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.profile-form__text-helper {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.profile-form__forms-input {
+  margin-top: 8px;
+  border: 0;
+  outline: 0;
+  background-color: #1f364d;
+  color: #dde1e4;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 14px;
+  text-overflow: ellipsis;
+  transition: border-width 120ms;
+  width: 80%;
+}
+
+.profile-form__forms-input:focus {
+  outline: 0;
+  border-left: 3px solid #4799eb;
+}
+
+.text-area {
+  overflow: hidden;
+}
+
+.profile-form__birth-wrapper {
+  display: flex;
+}
+
+.profile-form__forms-input option {
+  line-height: 40px;
+  height: 100px;
+  padding: 30px;
+}
+
+.year {
+  width: 100px;
+  margin-right: 5px;
+}
+.month {
+  width: 80px;
+  margin-right: 5px;
+}
+
+.day {
+  width: 80px;
+}
+
+.profile-form__button {
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to right, #e052a0, #f15c41);
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 36px;
+  margin-right: 5px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 34px;
+}
+
+.profile-form__button:hover {
+  background-image: linear-gradient(to right, #3ec7e0, #526bf4);
+}

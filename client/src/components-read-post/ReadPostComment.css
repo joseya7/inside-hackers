@@ -1,0 +1,37 @@
+.comment {
+  margin-bottom: 27px;
+  padding: 20px 0;
+  border-bottom: 3px dotted #1f364d;
+  /* border-top: 3px solid #1f364d; */
+}
+
+.comment__user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.comment__user-avatar {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 9999px;
+}
+
+.comment__user-id {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.comment__user-time {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.comment__content {
+  line-height: 25px;
+  font-size: 16px;
+}

@@ -1,0 +1,66 @@
+.post-item {
+  padding-left: 15px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.post-item__avatar {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.post-item__like {
+  margin-right: 1rem;
+}
+
+.post-item__icon {
+  font-weight: 800 !important;
+  width: 30px !important;
+  height: 25px !important;
+}
+.MuiSvgIcon-root:hover {
+  fill: #d8122f;
+  width: 27px;
+  height: 27px;
+}
+
+.post-item__like-number {
+  font-weight: 1000;
+  font-size: 1.1rem;
+}
+
+.post-item__contents {
+}
+
+.post-item__header {
+  text-align: left;
+}
+
+.post-item__content {
+  display: flex;
+}
+
+.post-item__content > * {
+  margin-right: 5px;
+}
+
+.attached {
+  margin: 0;
+}
+
+.post-item__user-name {
+  font-size: 13px;
+}
+
+.post-item__time {
+}
+
+.post-item__replies {
+}
+
+.no-link {
+  color: inherit;
+  text-decoration: none !important;
+}

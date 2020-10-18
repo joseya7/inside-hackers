@@ -1,0 +1,26 @@
+.post-header {
+  font-size: 17px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 75px;
+  padding: 0 8px;
+  position: relative;
+}
+
+.post-header__list {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  overflow-y: hidden;
+  align-self: center;
+}
+.post-header__item {
+  color: white;
+  margin-right: 10px;
+}
+
+.post-header .btn {
+  display: flex;
+  align-items: center;
+}

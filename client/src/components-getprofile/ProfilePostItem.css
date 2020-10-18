@@ -1,0 +1,46 @@
+.profile-post-item {
+  background-color: #1f364d;
+  text-align: left;
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.profile-post-item:hover {
+  background-color: rgba(31, 70, 77, 0.8);
+}
+
+.profile-post-item__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-post-item__header > h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #63809c;
+
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.MuiSvgIcon-root {
+  font-size: 1rem;
+}
+
+.profile-post-item__title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.35em;
+}
+
+.profile-post-item__contents {
+  color: #6f8aa5;
+  font-size: 18px;
+  line-height: 1.3em;
+  margin-top: 14px;
+  width: 100%;
+}
